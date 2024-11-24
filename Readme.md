@@ -31,14 +31,12 @@ After downloading, move the `my_model.h5` file into the `models` folder within t
 **For Unix-based systems (Linux/Mac):**
 
 ```bash
-mkdir -p models
 mv /path/to/my_model.h5 models/my_model.h5
 ```
 
 **For Windows (PowerShell):**
 
 ```powershell
-New-Item -ItemType Directory -Path models
 Move-Item -Path "C:\path\to\my_model.h5" -Destination models\my_model.h5
 ```
 
