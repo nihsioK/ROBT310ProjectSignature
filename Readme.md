@@ -8,6 +8,8 @@
 
 _This project was done as a part of the course ROBT310 - Image Processing at Nazarbayev University._
 
+_Here is the link to video instruction [link](https://drive.google.com/file/d/1K-FA4oPdNAxcZU5XAuB8kV24ssX7HJDN/view?usp=sharing)
+
 ## Step 1: Clone the Project 🖥️
 
 Firstly, clone the project using the following command:
