@@ -1,5 +1,13 @@
 # ROBT310ProjectSignature 🚀
 
+# Team Members
+
+- Aidana Baglanova
+- Daniyar Koishin
+- Yesset Yedres
+
+_This project was done as a part of the course ROBT310 - Image Processing at Nazarbayev University._
+
 ## Step 1: Clone the Project 🖥️
 
 Firstly, clone the project using the following command:
