@@ -1,107 +1,82 @@
-### Step 1: Download the Release Package ⬇️
+# ROBT310ProjectSignature 🚀
+
+## Step 1: Clone the Project 🖥️
+
+Firstly, clone the project using the following command:
+
+```bash
+git clone https://github.com/nihsioK/ROBT310ProjectSignature
+```
+
+Navigate to the project directory:
+
+```bash
+cd ROBT310ProjectSignature
+```
+
+---
+
+## Step 2: Download the Weights Manually ⬇️
 
 1. Go to the [Releases Page](https://github.com/nihsioK/ROBT310ProjectSignature/releases) of the repository.
-2. Download the source code and weights for the desired release (e.g., `v1.0`).
-
-   Alternatively, use the following commands:
-
-   **For Unix-based systems (Linux/Mac):**
-
-   ```bash
-   wget https://github.com/nihsioK/ROBT310ProjectSignature/archive/refs/tags/v1.0.zip
-   wget https://github.com/nihsioK/ROBT310ProjectSignature/releases/download/v1.0/my_model.h5 -O models/my_model.h5
-   ```
-
-   **For Windows (PowerShell):**
-
-   ```powershell
-   Invoke-WebRequest -Uri https://github.com/nihsioK/ROBT310ProjectSignature/archive/refs/tags/v1.0.zip -OutFile v1.0.zip
-   Invoke-WebRequest -Uri https://github.com/nihsioK/ROBT310ProjectSignature/releases/download/v1.0/my_model.h5 -OutFile models\my_model.h5
-   ```
+2. Locate the release version (e.g., `v1.0`).
+3. Manually download the weights file by clicking on `my_model.h5`.
 
 ---
 
-### Step 2: Extract the Package 🗂️
+## Step 3: Move the Weights File to the Cloned Directory 🎯
 
-**For Unix-based systems (Linux/Mac):**
-
-```bash
-unzip v1.0.zip
-cd ROBT310ProjectSignature-v1.0
-```
-
-**For Windows (PowerShell):**
-
-```powershell
-Expand-Archive -Path v1.0.zip -DestinationPath .\ROBT310ProjectSignature-v1.0
-cd ROBT310ProjectSignature-v1.0
-```
-
----
-
-### Step 3: Create a Virtual Environment 🌐
-
-Ensure Python 3.11 is installed. Create a virtual environment:
-
-**For Unix-based systems (Linux/Mac):**
-
-```bash
-python3 -m venv venv
-```
-
-**For Windows (PowerShell):**
-
-```powershell
-python -m venv venv
-```
-
----
-
-### Step 4: Install Required Libraries 📦
-
-Activate the virtual environment and install dependencies:
-
-**For Unix-based systems (Linux/Mac):**
-
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-**For Windows (PowerShell):**
-
-```powershell
-.\venv\Scripts\activate
-pip install -r requirements.txt
-```
-
----
-
-### Step 5: Place the Model Weights 🎯
-
-Ensure the `my_model.h5` file is in the correct directory (e.g., `models/my_model.h5`). You may need to create the `models` directory if it does not exist.
+After downloading, move the `my_model.h5` file into the `models` folder within the cloned directory.
 
 **For Unix-based systems (Linux/Mac):**
 
 ```bash
 mkdir -p models
-mv my_model.h5 models/my_model.h5
+mv /path/to/my_model.h5 models/my_model.h5
 ```
 
 **For Windows (PowerShell):**
 
 ```powershell
 New-Item -ItemType Directory -Path models
-Move-Item -Path my_model.h5 -Destination models\my_model.h5
+Move-Item -Path "C:\path\to\my_model.h5" -Destination models\my_model.h5
 ```
 
 ---
 
-### Step 6: Run the Project ▶️
+## Step 4: Create a Virtual Environment 🌐
 
-Run the application:
+Ensure Python 3.11 is installed. Create a virtual environment in the project directory:
 
-**For Both Unix-based systems and Windows:**
+**For Unix-based systems (Linux/Mac):**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**For Windows (PowerShell):**
+
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+---
+
+## Step 5: Install Required Libraries 📦
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Step 6: Run the Project ▶️
+
+Run the application using:
 
 ```bash
 streamlit run aidana.py
@@ -109,7 +84,7 @@ streamlit run aidana.py
 
 ---
 
-### Step 7: Access the Application 🌟
+## Step 7: Access the Application 🌟
 
 Open the following URL in your browser:
 
